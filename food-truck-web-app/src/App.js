@@ -61,7 +61,7 @@ function App() {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Cuisine</th>
+              <th>Food Items</th>
               <th>Location</th>
             </tr>
           </thead>
