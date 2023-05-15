@@ -7,10 +7,14 @@ import com.foodtruck.spring.service.LoyaltyProgramService;
 @Service
 public class LoyaltyProgramServiceImpl implements LoyaltyProgramService {
 
-	// Assign loyalty points, issue loyalty cards, or perform any other relevant actions
+    private List<Customer> registeredCustomers;
+
+    public LoyaltyProgramServiceImpl() {
+        registeredCustomers = new ArrayList<>();
+    }
+
+    @Override
     public void registerCustomer(Customer customer) {
-    	//TODO
-    	 
-       
+        registeredCustomers.add(customer);
     }
 }
