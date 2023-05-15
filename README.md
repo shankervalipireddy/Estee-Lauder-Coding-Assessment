@@ -6,13 +6,21 @@ The Food Truck Web App is a web application built with React.js that allows user
 
 **#Features**
 List all food trucks
+
 Find nearby food trucks based on location
+
 Post content on social media platforms
+
 Register for a loyalty program
+
 Submit reviews for food trucks
+
 Respond to reviews
+
 Place online food orders
+
 Installation
+
 To run the Food Truck Web App locally on your machine, follow these steps:
 
 **#Clone the repository:**
