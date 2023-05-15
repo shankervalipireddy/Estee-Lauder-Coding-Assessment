@@ -38,9 +38,18 @@ function App() {
   };
 
   // Function to handle registering for loyalty program endpoint
-  const registerForLoyaltyProgram = (customer) => {
-    // TODO
-  };
+	const registerForLoyaltyProgram = (customer) => {
+	  axios
+		.post("http://localhost:8080/loyalty/register", customer)
+		.then((response) => {
+		  console.log("Registration successful!");
+		  // Perform any additional actions after successful registration
+		})
+		.catch((error) => {
+		  console.error("Error registering for loyalty program:", error);
+		  // Handle the error appropriately
+		});
+	};
 
   // Function to handle submitting a review endpoint
   const submitReview = (review) => {
